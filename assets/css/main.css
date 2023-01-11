@@ -841,7 +841,7 @@ section {
 # Call To Action Section
 --------------------------------------------------------------*/
 .call-to-action .container {
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/cta-bg.jpg") center center;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/cta.jpg") center center;
   background-size: cover;
   padding: 100px 60px;
   border-radius: 15px;
@@ -1042,17 +1042,23 @@ section {
 --------------------------------------------------------------*/
 .testimonials .testimonial-wrap {
   padding-left: 10px;
+  
 }
 
 .testimonials .testimonial-item {
   box-sizing: content-box;
   padding: 30px;
+  width: 200px;
+  height: 500px;
   margin: 30px 10px;
   box-shadow: 0px 0 15px rgba(0, 0, 0, 0.1);
   position: relative;
-  background: #fff;
+  background: #f6f6f6;
+  background-size: cover;
+  background-repeat: no-repeat;
   border-radius: 10px;
 }
+
 
 .testimonials .testimonial-item .testimonial-img {
   width: 90px;
