@@ -1143,6 +1143,10 @@ section {
     padding: 30px;
     margin: 15px auto;
   }
+  .call-to-action .cta-btn
+  {
+    font-size: 12px;
+  }
 
   .testimonials .testimonial-item .testimonial-img {
     position: static;
